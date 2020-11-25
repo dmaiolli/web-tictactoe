@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jogo da Velha</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<!-- CSS EXTERNO -->
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+	<div id="bar">Jogo da Velha</div>
+	<div id="content">
+        <h2 class="jogadores"></h2>
+		<table id="tabuleiro">
+			<tr>
+				<td onclick="verificarPreenchimento(this)" class="pos" id='c1'>1</td>
+				<td onclick="verificarPreenchimento(this)" class="pos" id='c2'>2</td>
+				<td onclick="verificarPreenchimento(this)" class="pos" id='c3'>3</td>
+			</tr>
+
+			<tr>
+				<td onclick="verificarPreenchimento(this)" class="pos" id='c4'>4</td>
+				<td onclick="verificarPreenchimento(this)" class="pos" id='c5'>5</td>
+				<td onclick="verificarPreenchimento(this)" class="pos" id='c6'>6</td>
+			</tr>
+
+			<tr>
+				<td onclick="verificarPreenchimento(this)" class="pos" id='c7'>7</td>
+				<td onclick="verificarPreenchimento(this)" class="pos" id='c8'>8</td>
+				<td onclick="verificarPreenchimento(this)" class="pos" id='c9'>9</td>
+			</tr>
+
+		</table>
+	</div>
+	<script type="text/javascript" src="./scripts/script.js"></script>
+</body>
+</html>
